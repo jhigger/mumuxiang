@@ -148,7 +148,7 @@ const Section2 = () => {
 
 const Hero = () => {
 	return (
-		<section className="flex h-max items-center justify-evenly gap-[10vw] bg-gradient-to-br from-[#fdb4cd] to-[#c9f6f0] p-36">
+		<section className="flex h-max flex-col items-center justify-evenly gap-[5vw] bg-gradient-to-br from-[#fdb4cd] to-[#c9f6f0] p-36 lg:flex-row">
 			<div className="aspect-[9/16] h-[720px] w-[350px] rounded-xl border-2">
 				<img
 					src="https://placehold.co/350x720?text=video"
