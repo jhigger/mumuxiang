@@ -43,12 +43,14 @@ const Home: NextPage = () => {
 
 const Section5 = () => {
 	return (
-		<section className="grid h-[50vw] grid-cols-2 grid-rows-1 bg-gradient-to-l from-[#Section5]">
-			<div className="flex items-center justify-center">
-				<div className="flex flex-col gap-4">
-					<p className="text-7xl">Lorem ipsum dolor</p>
-					<p className="text-5xl">Lorem ipsum dolor sit.</p>
-					<div className="flex gap-4">
+		<section className="grid h-[50vw] grid-cols-2 grid-rows-1">
+			<div className="flex items-center justify-center p-4">
+				<div className="flex flex-col gap-4 text-center lg:text-start">
+					<Content
+						title="Lorem ipsum dolor"
+						desc="Lorem ipsum dolor sit."
+					/>
+					<div className="flex flex-wrap justify-center gap-4 lg:justify-start">
 						{[...Array(5).keys()].map((i) => {
 							return (
 								<img
@@ -72,16 +74,18 @@ const Section5 = () => {
 
 const Section4 = () => {
 	return (
-		<section className="grid h-[50vw] grid-cols-2 grid-rows-1  bg-gradient-to-r from-[#d5d6f2]">
+		<section className="grid h-[50vw] grid-cols-2 grid-rows-1">
 			<img
 				src="https://placehold.co/900x900?text=Image"
 				alt="logo"
 				className="h-full w-full object-cover object-center"
 			/>
-			<div className="flex items-center justify-center">
-				<div className="flex flex-col gap-4">
-					<p className="text-7xl">Lorem ipsum dolor</p>
-					<p className="text-5xl">Lorem ipsum dolor sit.</p>
+			<div className="flex items-center justify-center p-4">
+				<div className="flex flex-col gap-4 text-center lg:text-start">
+					<Content
+						title="Lorem ipsum dolor"
+						desc="Lorem ipsum dolor sit."
+					/>
 				</div>
 			</div>
 		</section>
@@ -90,12 +94,14 @@ const Section4 = () => {
 
 const Section3 = () => {
 	return (
-		<section className="grid h-[50vw] grid-cols-2 grid-rows-1 bg-gradient-to-l from-[#c9f6f0]">
-			<div className="flex items-center justify-center">
-				<div className="flex flex-col gap-4">
-					<p className="text-7xl">Lorem ipsum dolor</p>
-					<p className="text-5xl">Lorem ipsum dolor sit.</p>
-					<div className="flex gap-4">
+		<section className="grid h-[50vw] grid-cols-2 grid-rows-1">
+			<div className="flex items-center justify-center p-4">
+				<div className="flex flex-col gap-4 text-center lg:text-start">
+					<Content
+						title="Lorem ipsum dolor"
+						desc="Lorem ipsum dolor sit."
+					/>
+					<div className="flex flex-wrap justify-center gap-4 lg:justify-start">
 						{[...Array(5).keys()].map((i) => {
 							return (
 								<img
@@ -125,11 +131,13 @@ const Section2 = () => {
 				alt="logo"
 				className="h-full w-full object-cover object-center"
 			/>
-			<div className="flex items-center justify-center">
-				<div className="flex flex-col gap-4">
-					<p className="text-7xl">Lorem ipsum dolor</p>
-					<p className="text-5xl">Lorem ipsum dolor sit.</p>
-					<div className="flex gap-4">
+			<div className="flex items-center justify-center p-4">
+				<div className="flex flex-col gap-4 text-center lg:text-start">
+					<Content
+						title="Lorem ipsum dolor"
+						desc="Lorem ipsum dolor sit."
+					/>
+					<div className="flex flex-wrap justify-center gap-4 lg:justify-start">
 						{[...Array(5).keys()].map((i) => {
 							return (
 								<img
@@ -143,6 +151,15 @@ const Section2 = () => {
 				</div>
 			</div>
 		</section>
+	);
+};
+
+const Content = ({ title, desc }: { title: string; desc: string }) => {
+	return (
+		<div>
+			<h2 className="text-[4vw]">{title}</h2>
+			<p className="text-[2vw]">{desc}</p>
+		</div>
 	);
 };
 
