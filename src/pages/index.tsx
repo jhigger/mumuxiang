@@ -21,8 +21,8 @@ const Home: NextPage = () => {
 				<Section3 />
 				<Section4 />
 				<Section5 />
-				<footer className="bg-zinc-900 py-24">
-					<div className="container mx-auto flex flex-col items-center justify-center gap-4 text-center text-lg text-white/50">
+				<footer className="bg-zinc-900 px-12 py-24">
+					<div className="container mx-auto flex flex-col items-center justify-center gap-4 text-center text-sm text-white/50 lg:text-lg">
 						<p>&copy; 2023 Lorem, ipsum dolor.</p>
 						<p>
 							Lorem ipsum dolor sit amet consectetur adipisicing
