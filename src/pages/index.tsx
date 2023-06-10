@@ -56,7 +56,7 @@ const Section5 = () => {
 								<img
 									src="https://placehold.co/80?text=Image"
 									alt="logo"
-									className="rounded-xl"
+									className="w-1/4 rounded-xl lg:w-1/6"
 								/>
 							);
 						})}
@@ -107,7 +107,7 @@ const Section3 = () => {
 								<img
 									src="https://placehold.co/80?text=Image"
 									alt="logo"
-									className="rounded-full"
+									className="w-1/4 rounded-full lg:w-1/6"
 								/>
 							);
 						})}
@@ -137,13 +137,13 @@ const Section2 = () => {
 						title="Lorem ipsum dolor"
 						desc="Lorem ipsum dolor sit."
 					/>
-					<div className="flex flex-wrap justify-center gap-4 lg:justify-start">
+					<div className="flex flex-wrap justify-center gap-4 lg:flex-initial lg:justify-start">
 						{[...Array(5).keys()].map((i) => {
 							return (
 								<img
 									src="https://placehold.co/80?text=Image"
 									alt="logo"
-									className="rounded-xl"
+									className="w-1/4 rounded-xl lg:w-1/6"
 								/>
 							);
 						})}
