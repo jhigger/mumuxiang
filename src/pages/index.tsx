@@ -43,7 +43,7 @@ const Home: NextPage = () => {
 
 const Section5 = () => {
 	return (
-		<section className="grid h-[50vw] grid-cols-2 grid-rows-1">
+		<section className="grid h-[50vw] grid-cols-2 grid-rows-1 bg-gradient-to-r from-[#fbf0d2]">
 			<div className="flex items-center justify-center p-4">
 				<div className="flex flex-col gap-4 text-center lg:text-start">
 					<Content
@@ -74,7 +74,7 @@ const Section5 = () => {
 
 const Section4 = () => {
 	return (
-		<section className="grid h-[50vw] grid-cols-2 grid-rows-1">
+		<section className="grid h-[50vw] grid-cols-2 grid-rows-1 bg-gradient-to-r from-[#d5d6f2]">
 			<img
 				src="https://placehold.co/900x900?text=Image"
 				alt="logo"
@@ -94,7 +94,7 @@ const Section4 = () => {
 
 const Section3 = () => {
 	return (
-		<section className="grid h-[50vw] grid-cols-2 grid-rows-1">
+		<section className="grid h-[50vw] grid-cols-2 grid-rows-1 bg-gradient-to-l from-[#c9f6f0]">
 			<div className="flex items-center justify-center p-4">
 				<div className="flex flex-col gap-4 text-center lg:text-start">
 					<Content
@@ -165,8 +165,8 @@ const Content = ({ title, desc }: { title: string; desc: string }) => {
 
 const Hero = () => {
 	return (
-		<section className="flex h-max flex-col items-center justify-center gap-[7vw] bg-gradient-to-br from-[#fdb4cd] to-[#c9f6f0] px-8 py-36 lg:flex-row lg:px-16">
-			<div className="aspect-[9/16] rounded-xl border-2">
+		<section className="flex min-h-screen flex-col items-center justify-center gap-[5vw] bg-gradient-to-br from-[#fdb4cd] to-[#c9f6f0] px-8 py-36 lg:flex-row lg:gap-[10vw] lg:px-14">
+			<div className="aspect-[9/19.5] h-[720px] w-[350px] rounded-xl border-2">
 				<img
 					src="https://placehold.co/350x720?text=video"
 					alt="logo"
