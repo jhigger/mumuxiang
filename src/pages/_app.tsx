@@ -9,9 +9,9 @@ const font = Poppins({
 
 const MyApp: AppType = ({ Component, pageProps }) => {
 	return (
-		<div className={font.className}>
+		<main className={font.className}>
 			<Component {...pageProps} />
-		</div>
+		</main>
 	);
 };
 
