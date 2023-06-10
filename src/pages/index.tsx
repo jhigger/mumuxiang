@@ -56,7 +56,7 @@ const Section5 = () => {
 								<img
 									key={i}
 									src="https://placehold.co/80?text=Image"
-									alt="logo"
+									alt="illustration"
 									className="w-1/4 rounded-xl lg:w-1/6"
 								/>
 							);
@@ -66,7 +66,7 @@ const Section5 = () => {
 			</div>
 			<img
 				src="https://placehold.co/900x900?text=Image"
-				alt="logo"
+				alt="section image"
 				className="h-full w-full object-cover object-center"
 			/>
 		</section>
@@ -78,7 +78,7 @@ const Section4 = () => {
 		<section className="grid h-[50vw] grid-cols-2 grid-rows-1 bg-gradient-to-r from-[#d5d6f2]">
 			<img
 				src="https://placehold.co/900x900?text=Image"
-				alt="logo"
+				alt="section image"
 				className="h-full w-full object-cover object-center"
 			/>
 			<div className="flex items-center justify-center p-4">
@@ -108,7 +108,7 @@ const Section3 = () => {
 								<img
 									key={i}
 									src="https://placehold.co/80?text=Image"
-									alt="logo"
+									alt="icon"
 									className="w-1/4 rounded-full lg:w-1/6"
 								/>
 							);
@@ -118,7 +118,7 @@ const Section3 = () => {
 			</div>
 			<img
 				src="https://placehold.co/900x900?text=Image"
-				alt="logo"
+				alt="section image"
 				className="h-full w-full object-cover object-center"
 			/>
 		</section>
@@ -130,7 +130,7 @@ const Section2 = () => {
 		<section className="grid h-[50vw] grid-cols-2 grid-rows-1">
 			<img
 				src="https://placehold.co/900x900?text=Image"
-				alt="logo"
+				alt="section image"
 				className="h-full w-full object-cover object-center"
 			/>
 			<div className="flex items-center justify-center p-4">
@@ -145,7 +145,7 @@ const Section2 = () => {
 								<img
 									key={i}
 									src="https://placehold.co/80?text=Image"
-									alt="logo"
+									alt="avatar"
 									className="w-1/4 rounded-xl lg:w-1/6"
 								/>
 							);
@@ -172,7 +172,7 @@ const Hero = () => {
 			<div className="aspect-[9/19.5] h-[720px] w-[350px] rounded-xl border-2">
 				<img
 					src="https://placehold.co/350x720?text=video"
-					alt="logo"
+					alt="section image"
 					className="h-full w-full object-cover object-center"
 				/>
 			</div>
