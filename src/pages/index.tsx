@@ -165,7 +165,7 @@ const Content = ({ title, desc }: { title: string; desc: string }) => {
 
 const Hero = () => {
 	return (
-		<section className="flex h-max flex-col items-center justify-evenly gap-[5vw] bg-gradient-to-br from-[#fdb4cd] to-[#c9f6f0] p-36 lg:flex-row">
+		<section className="flex h-max flex-col items-center justify-evenly gap-[5vw] bg-gradient-to-br from-[#fdb4cd] to-[#c9f6f0] px-20 py-36 lg:flex-row">
 			<div className="aspect-[9/16] h-[720px] w-[350px] rounded-xl border-2">
 				<img
 					src="https://placehold.co/350x720?text=video"
@@ -174,14 +174,14 @@ const Hero = () => {
 				/>
 			</div>
 			<div className="flex flex-col gap-4">
-				<div className="flex flex-col items-end gap-4">
+				<div className="flex flex-col items-center gap-4 lg:items-end">
 					<img
 						src="https://placehold.co/600x150?text=LOGO"
 						alt="logo"
 					/>
-					<p className="text-7xl">Lorem ipsum</p>
+					<p className="text-4xl xl:text-7xl">Lorem ipsum</p>
 				</div>
-				<div className="flex items-center justify-center gap-4">
+				<div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
 					<img
 						src="https://placehold.co/128x128?text=QR"
 						alt="qr code"
