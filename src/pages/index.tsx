@@ -54,6 +54,7 @@ const Section5 = () => {
 						{[...Array(5).keys()].map((i) => {
 							return (
 								<img
+									key={i}
 									src="https://placehold.co/80?text=Image"
 									alt="logo"
 									className="w-1/4 rounded-xl lg:w-1/6"
@@ -105,6 +106,7 @@ const Section3 = () => {
 						{[...Array(5).keys()].map((i) => {
 							return (
 								<img
+									key={i}
 									src="https://placehold.co/80?text=Image"
 									alt="logo"
 									className="w-1/4 rounded-full lg:w-1/6"
@@ -141,6 +143,7 @@ const Section2 = () => {
 						{[...Array(5).keys()].map((i) => {
 							return (
 								<img
+									key={i}
 									src="https://placehold.co/80?text=Image"
 									alt="logo"
 									className="w-1/4 rounded-xl lg:w-1/6"
