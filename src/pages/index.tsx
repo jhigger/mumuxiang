@@ -9,7 +9,7 @@ const Home: NextPage = () => {
 			<Head>
 				<title>Mumuxiang</title>
 				<meta name="author" content="https://github.com/jhigger" />
-				<link rel="icon" href="/logo.png" />
+				<link rel="icon" href="/favicon.png" />
 			</Head>
 			<div className="relative min-h-[50vh] ">
 				<header className="absolute p-10">
@@ -171,7 +171,7 @@ const Content = ({ section }: { section: SectionIndex }) => {
 
 	return (
 		<div>
-			<h2 className="text-[4vw]">{title}</h2>
+			<h2 className="text-[4vw] font-heading">{title}</h2>
 			<p className="text-[1.75vw]">{desc}</p>
 		</div>
 	);
