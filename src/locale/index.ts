@@ -4,8 +4,7 @@ const locale = {
 	"zh-cn": {
 		hero: {
 			title: "木目AI",
-			desc: "你的美，刮目“相”看",
-			desc2: "彻底改变拍摄方式",
+			desc: "彻底改变拍摄方式",
 		},
 		section1: {
 			title: "百变风格，由你定义",

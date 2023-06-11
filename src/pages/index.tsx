@@ -35,8 +35,8 @@ const Home: NextPage = () => {
 							>
 								营业执照
 							</a>{" "}
-							|
-							增值电信业务经营许可证：沪B2-20230335联系方式：info@mumuxiang.com
+							| 增值电信业务经营许可证：沪B2-20230335 |
+							联系方式：info@mumuxiang.com
 						</p>
 					</div>
 				</footer>
@@ -181,7 +181,6 @@ const Content = ({ section }: { section: SectionIndex }) => {
 const Hero = () => {
 	const title = locale["zh-cn"].hero.title;
 	const desc = locale["zh-cn"].hero.desc;
-	const desc2 = locale["zh-cn"].hero.desc2;
 
 	return (
 		<section className="flex min-h-screen flex-col items-center justify-center gap-[5vw] bg-gradient-to-br from-[#59D1E9] via-[#D87DDD] to-[#F8C63A] px-2 py-36 sm:px-8 lg:flex-row lg:gap-[10vw] lg:px-14">
@@ -198,7 +197,6 @@ const Hero = () => {
 						{title}
 					</h1>
 					<p className="text-xl md:text-3xl lg:text-5xl">{desc}</p>
-					<p className="text-xl md:text-3xl lg:text-5xl">{desc2}</p>
 				</div>
 				<div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
 					<img
