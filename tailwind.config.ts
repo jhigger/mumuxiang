@@ -5,6 +5,7 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
+				default: ["var(--font-default)"],
 				heading: ["var(--font-heading)"],
 			},
 		},

@@ -12,6 +12,7 @@ const headingFont = localFont({
 const font = Noto_Sans_SC({
 	subsets: ["latin"],
 	weight: ["100"],
+	variable: "--font-default",
 });
 
 const MyApp: AppType = ({ Component, pageProps }) => {

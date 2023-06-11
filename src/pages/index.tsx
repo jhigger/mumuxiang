@@ -11,7 +11,7 @@ const Home: NextPage = () => {
 				<meta name="author" content="https://github.com/jhigger" />
 				<link rel="icon" href="/favicon.png" />
 			</Head>
-			<div className="relative min-h-[50vh] ">
+			<div className="relative min-h-[50vh] font-default">
 				<header className="absolute p-10">
 					<Link href="/">
 						<img src="logo.png" alt="logo" className="h-24 w-24" />
