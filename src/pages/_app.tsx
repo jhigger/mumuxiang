@@ -1,8 +1,8 @@
 import { type AppType } from "next/dist/shared/lib/utils";
 import "~/styles/globals.css";
-import { Noto_Sans_TC } from "next/font/google";
+import { Noto_Sans_SC } from "next/font/google";
 
-const font = Noto_Sans_TC({
+const font = Noto_Sans_SC({
 	subsets: ["latin"],
 	weight: ["400", "700"],
 });
