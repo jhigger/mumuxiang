@@ -51,7 +51,7 @@ const Section5 = () => {
 	return (
 		<section className="grid h-[50vw] grid-cols-2 grid-rows-1">
 			<img
-				src="https://placehold.co/900x900?text=Image"
+				src="images/image5.jpg"
 				alt="section image"
 				className="h-full w-full object-cover object-center"
 			/>
@@ -85,7 +85,7 @@ const Section4 = () => {
 				</div>
 			</div>
 			<img
-				src="https://placehold.co/900x900?text=Image"
+				src="images/image4.jpg"
 				alt="section image"
 				className="h-full w-full object-cover object-center"
 			/>
@@ -97,7 +97,7 @@ const Section3 = () => {
 	return (
 		<section className="grid h-[50vw] grid-cols-2 grid-rows-1 bg-gradient-to-r from-[#d5d6f2]">
 			<img
-				src="https://placehold.co/900x900?text=Image"
+				src="images/image3.jpg"
 				alt="section image"
 				className="h-full w-full object-cover object-center"
 			/>
@@ -131,7 +131,7 @@ const Section2 = () => {
 				</div>
 			</div>
 			<img
-				src="https://placehold.co/900x900?text=Image"
+				src="images/image2.jpg"
 				alt="section image"
 				className="h-full w-full object-cover object-center"
 			/>
@@ -143,7 +143,7 @@ const Section1 = () => {
 	return (
 		<section className="grid h-[50vw] grid-cols-2 grid-rows-1">
 			<img
-				src="https://placehold.co/900x900?text=Image"
+				src="images/image1.jpg"
 				alt="section image"
 				className="h-full w-full object-cover object-center"
 			/>
@@ -195,7 +195,7 @@ const Hero = () => {
 				/>
 			</div>
 			<div className="flex flex-col gap-4">
-				<div className="flex flex-col items-center gap-4 lg:items-end">
+				<div className="flex flex-col items-center gap-4">
 					<h1 className="text-7xl md:text-8xl lg:text-9xl">
 						{title}
 					</h1>
