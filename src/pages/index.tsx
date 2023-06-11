@@ -194,7 +194,7 @@ const Hero = () => {
 			</div>
 			<div className="flex flex-col gap-4">
 				<div className="flex flex-col items-center gap-4">
-					<h1 className="text-7xl md:text-8xl lg:text-9xl">
+					<h1 className="font-heading text-7xl md:text-8xl lg:text-9xl">
 						{title}
 					</h1>
 					<p className="text-xl md:text-3xl lg:text-5xl">{desc}</p>
