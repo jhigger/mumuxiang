@@ -9,16 +9,12 @@ const Home: NextPage = () => {
 			<Head>
 				<title>Mumuxiang</title>
 				<meta name="author" content="https://github.com/jhigger" />
-				<link rel="icon" href="/mumu-logo-512.png" />
+				<link rel="icon" href="/logo.png" />
 			</Head>
 			<div className="relative min-h-[50vh] ">
 				<header className="absolute p-10">
 					<Link href="/">
-						<img
-							src="mumu-logo-512.png"
-							alt="logo"
-							className="h-16 w-16"
-						/>
+						<img src="logo.png" alt="logo" className="h-24 w-24" />
 					</Link>
 				</header>
 				<Hero />
@@ -29,16 +25,17 @@ const Home: NextPage = () => {
 				<Section5 />
 				<footer className="bg-zinc-900 px-12 py-24">
 					<div className="container mx-auto flex flex-col items-center justify-center gap-4 text-center text-sm text-white/50 lg:text-lg">
-						<p>&copy; 2023 Lorem, ipsum dolor.</p>
+						<p>&copy; 2023 上海潜存网络科技有限公司</p>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing
-							elit. Quas incidunt magni consequatur pariatur
-							impedit maxime minus odio suscipit, culpa
-							asperiores!
-						</p>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing
-							elit. Nulla amet fugit voluptate autem vel adipisci!
+							<a
+								href="License.pdf"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="text-white"
+							>
+								营业执照
+							</a>{" "}
+							| 增值电信业务经营许可证：沪B2-20230335联系方式：info@mumuxiang.com
 						</p>
 					</div>
 				</footer>
