@@ -35,7 +35,8 @@ const Home: NextPage = () => {
 							>
 								营业执照
 							</a>{" "}
-							| 增值电信业务经营许可证：沪B2-20230335联系方式：info@mumuxiang.com
+							|
+							增值电信业务经营许可证：沪B2-20230335联系方式：info@mumuxiang.com
 						</p>
 					</div>
 				</footer>
@@ -46,7 +47,7 @@ const Home: NextPage = () => {
 
 const Section5 = () => {
 	return (
-		<section className="grid h-[50vw] grid-cols-2 grid-rows-1">
+		<section className="grid h-[50vw] grid-cols-2 grid-rows-1 bg-gradient-to-r from-rose-200">
 			<img
 				src="images/image5.jpg"
 				alt="section image"
@@ -63,7 +64,7 @@ const Section5 = () => {
 
 const Section4 = () => {
 	return (
-		<section className="grid h-[50vw] grid-cols-2 grid-rows-1 bg-gradient-to-r from-[#fbf0d2]">
+		<section className="grid h-[50vw] grid-cols-2 grid-rows-1 bg-gradient-to-l from-[#fbf0d2]">
 			<div className="flex items-center justify-center p-4">
 				<div className="flex flex-col gap-4 text-center lg:text-start">
 					<Content section="section4" />
@@ -171,7 +172,7 @@ const Content = ({ section }: { section: SectionIndex }) => {
 
 	return (
 		<div>
-			<h2 className="text-[4vw] font-heading">{title}</h2>
+			<h2 className="font-heading text-[4vw]">{title}</h2>
 			<p className="text-[1.75vw]">{desc}</p>
 		</div>
 	);
