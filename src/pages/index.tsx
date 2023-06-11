@@ -172,7 +172,7 @@ const Content = ({ section }: { section: SectionIndex }) => {
 
 	return (
 		<div>
-			<h2 className="font-heading text-[4vw]">{title}</h2>
+			<h2 className="text-[4vw]">{title}</h2>
 			<p className="text-[1.75vw]">{desc}</p>
 		</div>
 	);
@@ -194,7 +194,7 @@ const Hero = () => {
 			</div>
 			<div className="flex flex-col gap-4">
 				<div className="flex flex-col items-center gap-4">
-					<h1 className="font-heading text-7xl md:text-8xl lg:text-9xl">
+					<h1 className="text-7xl md:text-8xl lg:text-9xl">
 						{title}
 					</h1>
 					<p className="text-xl md:text-3xl lg:text-5xl">{desc}</p>
