@@ -171,15 +171,19 @@ const Content = ({ section }: { section: SectionIndex }) => {
 	return (
 		<div>
 			<h2 className="text-[4vw]">{title}</h2>
-			<p className="text-[2vw]">{desc}</p>
+			<p className="text-[1.75vw]">{desc}</p>
 		</div>
 	);
 };
 
 const Hero = () => {
+	const title = locale["zh-cn"].hero.title;
+	const desc = locale["zh-cn"].hero.desc;
+	const desc2 = locale["zh-cn"].hero.desc2;
+
 	return (
-		<section className="flex min-h-screen flex-col items-center justify-center gap-[5vw] bg-gradient-to-br from-[#59D1E9] via-[#D87DDD] to-[#F8C63A] px-8 py-36 lg:flex-row lg:gap-[10vw] lg:px-14">
-			<div className="aspect-[9/19.5] h-[720px] w-[350px] rounded-xl border-2">
+		<section className="flex min-h-screen flex-col items-center justify-center gap-[5vw] bg-gradient-to-br from-[#59D1E9] via-[#D87DDD] to-[#F8C63A] px-2 py-36 sm:px-8 lg:flex-row lg:gap-[10vw] lg:px-14">
+			<div className="aspect-[9/19.5] h-[720px] w-full overflow-hidden rounded-xl border-2 sm:w-[350px]">
 				<img
 					src="https://placehold.co/350x720?text=video"
 					alt="section image"
@@ -188,14 +192,11 @@ const Hero = () => {
 			</div>
 			<div className="flex flex-col gap-4">
 				<div className="flex flex-col items-center gap-4 lg:items-end">
-					<img
-						src="https://placehold.co/600x150?text=LOGO"
-						alt="logo"
-						className="md:w-3/4 lg:w-full"
-					/>
-					<p className="text-3xl md:text-5xl lg:text-7xl">
-						Lorem ipsum
-					</p>
+					<h1 className="text-7xl md:text-8xl lg:text-9xl">
+						{title}
+					</h1>
+					<p className="text-xl md:text-3xl lg:text-5xl">{desc}</p>
+					<p className="text-xl md:text-3xl lg:text-5xl">{desc2}</p>
 				</div>
 				<div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
 					<img

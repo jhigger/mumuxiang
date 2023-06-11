@@ -2,6 +2,11 @@ export type SectionKey = keyof (typeof locale)["zh-cn"];
 
 const locale = {
 	"zh-cn": {
+		hero: {
+			title: "木目AI",
+			desc: "你的美，刮目“相”看",
+			desc2: "彻底改变拍摄方式",
+		},
 		section1: {
 			title: "百变风格, 由你定义",
 			desc: "输入文字描述或是参考照片, 多变造型, 你来主宰。",
