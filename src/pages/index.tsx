@@ -1,5 +1,6 @@
 import { type NextPage } from "next";
 import Head from "next/head";
+import Link from "next/link";
 import locale, { type SectionKey as SectionIndex } from "~/locale";
 
 const Home: NextPage = () => {
@@ -8,14 +9,17 @@ const Home: NextPage = () => {
 			<Head>
 				<title>Mumuxiang</title>
 				<meta name="author" content="https://github.com/jhigger" />
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/mumu-logo-512.png" />
 			</Head>
 			<div className="relative min-h-[50vh] ">
 				<header className="absolute p-10">
-					<img
-						src="https://placehold.co/145x47?text=LOGO"
-						alt="logo"
-					/>
+					<Link href="/">
+						<img
+							src="mumu-logo-512.png"
+							alt="logo"
+							className="h-16 w-16"
+						/>
+					</Link>
 				</header>
 				<Hero />
 				<Section1 />
