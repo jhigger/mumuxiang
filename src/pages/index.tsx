@@ -9,12 +9,12 @@ const Home: NextPage = () => {
 			<Head>
 				<title>Mumuxiang</title>
 				<meta name="author" content="https://github.com/jhigger" />
-				<link rel="icon" href="/favicon.png" />
+				<link rel="icon" href="/logo.webp" />
 			</Head>
 			<div className="relative min-h-[50vh] font-default">
 				<header className="absolute p-10">
 					<Link href="/">
-						<img src="logo.png" alt="logo" className="h-24 w-24" />
+						<img src="logo.webp" alt="logo" className="h-24 w-24 bg-white rounded-xl" />
 					</Link>
 				</header>
 				<Hero />
