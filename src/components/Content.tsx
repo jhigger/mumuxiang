@@ -13,10 +13,12 @@ const Content = ({
 
 	return (
 		<div>
-			<Balancer>
-				<h2 className="font-heading text-[4vw]">{title}</h2>
-				<p className="text-[1.75vw]">{desc}</p>
-			</Balancer>
+			<h2 className="font-heading text-[4vw]">
+				<Balancer>{title}</Balancer>
+			</h2>
+			<p className="text-[1.75vw]">
+				<Balancer>{desc}</Balancer>
+			</p>
 		</div>
 	);
 };

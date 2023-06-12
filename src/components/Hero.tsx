@@ -27,11 +27,9 @@ const Hero = ({ localeOption }: { localeOption: LocaleOption }) => {
 							{title}
 						</h1>
 					)}
-					<Balancer>
-						<p className="text-lg md:text-2xl lg:text-4xl">
-							{desc}
-						</p>
-					</Balancer>
+					<p className="text-lg md:text-2xl lg:text-4xl">
+						<Balancer>{desc}</Balancer>
+					</p>
 				</div>
 				{/* No app yet */}
 				{/* <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">

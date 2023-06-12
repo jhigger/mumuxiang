@@ -27,11 +27,18 @@ const Home: NextPage = () => {
 			<div className="relative min-h-[50vh] font-default [word-spacing:1rem]">
 				<header className="absolute p-10">
 					<Link href="/">
-						<img
-							src="logo.webp"
-							alt="logo"
-							className="h-24 w-24 rounded-xl bg-white"
-						/>
+						<div className="rounded-xl bg-white flex items-center">
+							<img
+								src="logo.webp"
+								alt="logo"
+								className="h-24 w-24"
+							/>
+							<img
+								src="logo name.png"
+								alt="logo name"
+								className="h-6 pr-6"
+							/>
+						</div>
 					</Link>
 				</header>
 				<Hero localeOption={locale} />

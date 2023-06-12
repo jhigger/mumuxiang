@@ -39,9 +39,11 @@ export const Section1 = (props: { localeOption: LocaleOption }) => {
 					<div className="flex flex-wrap justify-center gap-6 lg:flex-initial lg:justify-start">
 						{icons.map((icon) => {
 							return (
-								<div className="flex w-max flex-col items-center justify-end rounded-xl">
+								<div
+									key={icon.src}
+									className="flex w-max flex-col items-center justify-end rounded-xl"
+								>
 									<img
-										key={icon.src}
 										src={icon.src}
 										alt="icon"
 										className="w-4 invert-[50%] sm:w-8 md:w-12 lg:w-16"
@@ -135,9 +137,11 @@ export const Section5 = (props: { localeOption: LocaleOption }) => {
 					<div className="flex flex-wrap justify-center gap-6 lg:flex-initial lg:justify-start">
 						{icons.map((icon) => {
 							return (
-								<div className="flex w-max flex-col items-center justify-end rounded-xl">
+								<div
+									key={icon.src}
+									className="flex w-max flex-col items-center justify-end rounded-xl"
+								>
 									<img
-										key={icon.src}
 										src={icon.src}
 										alt="icon"
 										className="w-4 invert-[50%] sm:w-8 md:w-12 lg:w-16"
