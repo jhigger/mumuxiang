@@ -100,7 +100,7 @@ const locale: LocaleType = {
 	},
 	"en-us": {
 		hero: {
-			title: "Mumu AI",
+			title: "Artisse AI",
 			desc: "Revolutionizing the way you take photos",
 		},
 		section1: {
