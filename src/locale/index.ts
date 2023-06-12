@@ -70,27 +70,27 @@ const locale: LocaleType = {
 	"zh-cn": {
 		hero: {
 			title: "木目AI",
-			desc: "彻底改变拍摄方式",
+			desc: "彻底改变拍摄方式 一键生成精美照片",
 		},
 		section1: {
-			title: "百变风格，由你定义",
-			desc: "输入文字描述或是参考照片，多变造型，你来主宰。",
+			title: "百变风格 由你定义",
+			desc: "输入文字描述或是参考照片 多变造型 你来主宰",
 		},
 		section2: {
-			title: "一键生成，无限可能",
-			desc: "别止步于想象，动动手指，拥有万千可能。",
+			title: "一次AI模型训练 多变应用场景",
+			desc: "告别传统的拍摄流程 好看的照片 无需等待",
 		},
 		section3: {
-			title: "即刻呈现，完美照片",
-			desc: "真实的质感，精美的画面，一键出片无需再P。",
+			title: "一键生成 无限可能",
+			desc: "别止步于想象 动动手指 拥有万千可能",
 		},
 		section4: {
-			title: "一次训练，随心切换",
-			desc: "告别传统的拍照流程，好看的照片，无需等待。",
+			title: "即刻呈现 精美照片",
+			desc: "真实的质感 精美的画面 一键出片无需再P",
 		},
 		section5: {
-			title: "尽心打造，你的专属",
-			desc: "基于独家专利的人像AI技术，针对亚洲面孔表现更为出色。",
+			title: "尽心打造 你的专属",
+			desc: "基于独家专利的人像AI技术 针对亚洲面孔表现更为出色",
 		},
 		footer: {
 			title: "上海潜存网络科技有限公司",
@@ -101,30 +101,30 @@ const locale: LocaleType = {
 	"en-us": {
 		hero: {
 			title: "Artisse AI",
-			desc: "Revolutionizing the way you take photos",
+			desc: "Revolutionizing the way you take photos, one-click generation of exquisite photos",
 		},
 		section1: {
-			title: "Versatile Styles, Defined by You",
-			desc: "Describe in text or reference photos, with ever-changing styles under your control.",
+			title: "Versatile styles defined by you",
+			desc: "Input text descriptions or reference photos, master various styles",
 		},
 		section2: {
-			title: "One-Click Generation, Infinite Possibilities",
-			desc: "Go beyond imagination and explore a multitude of possibilities with a simple touch.",
+			title: "One AI model training, multiple application scenarios",
+			desc: "Say goodbye to traditional photography workflows, no need to wait for beautiful photos",
 		},
 		section3: {
-			title: "Instant Presentation, Perfect Photos",
-			desc: "Realistic texture, exquisite visuals, one-click output without the need for post-processing.",
+			title: "One-click generation, infinite possibilities",
+			desc: "Go beyond imagination, simply use your fingertips, and have countless possibilities",
 		},
 		section4: {
-			title: "One Training, Switch Freely",
-			desc: "Say goodbye to traditional photography workflows. Beautiful photos without waiting.",
+			title: "Instant presentation, exquisite photos",
+			desc: "Realistic texture, exquisite visuals, one-click output without the need for post-processing",
 		},
 		section5: {
-			title: "Dedicated Creation, Your Exclusive Style",
-			desc: "Based on exclusive patented portrait AI technology, outstanding performance for Asian faces.",
+			title: "Dedicated creation, your exclusive style",
+			desc: "Based on exclusive patented portrait AI technology, excels in portraying Asian faces",
 		},
 		footer: {
-			title: "Shanghai QianCheng Network Technology Co Ltd",
+			title: "Shanghai QianCheng Network Technology Co., Ltd.",
 			a: "Business License",
 			desc: " | Value-added Telecommunications Business License: Hu B2-20230335 | Contact: info@mumuxiang.com",
 		},
