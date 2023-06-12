@@ -15,12 +15,12 @@ const Hero = ({ localeOption }: { localeOption: LocaleOption }) => {
 				/>
 			</div>
 			<div className="flex flex-col gap-4">
-				<div className="flex max-w-screen-sm flex-col items-center gap-4 text-center">
+				<div className="flex flex-col items-center gap-4 text-center lg:max-w-[99%]">
 					<Balancer>
 						<h1 className="font-heading text-6xl md:text-7xl lg:text-8xl">
 							{title}
 						</h1>
-						<p className="text-xl md:text-3xl lg:text-5xl">
+						<p className="text-lg md:text-2xl lg:text-4xl">
 							{desc}
 						</p>
 					</Balancer>
