@@ -1,9 +1,9 @@
 import locale, { type LocaleOption } from "~/locale";
 
 const Footer = ({ localeOption }: { localeOption: LocaleOption }) => {
-	const p1 = locale[localeOption].footer.p1;
+	const p1 = locale[localeOption].footer.title;
 	const a = locale[localeOption].footer.a;
-	const p2 = locale[localeOption].footer.p2;
+	const p2 = locale[localeOption].footer.desc;
 
 	return (
 		<footer className="bg-zinc-900 px-12 py-24">

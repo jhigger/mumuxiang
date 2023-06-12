@@ -1,7 +1,72 @@
 export type LocaleOption = keyof typeof locale;
 export type SectionKey = keyof (typeof locale)["zh-cn"];
 
-const locale = {
+type LocaleType = {
+	"zh-cn": {
+		hero: {
+			title: string;
+			desc: string;
+		};
+		section1: {
+			title: string;
+			desc: string;
+		};
+		section2: {
+			title: string;
+			desc: string;
+		};
+		section3: {
+			title: string;
+			desc: string;
+		};
+		section4: {
+			title: string;
+			desc: string;
+		};
+		section5: {
+			title: string;
+			desc: string;
+		};
+		footer: {
+			title: string;
+			a: string;
+			desc: string;
+		};
+	};
+	"en-us": {
+		hero: {
+			title: string;
+			desc: string;
+		};
+		section1: {
+			title: string;
+			desc: string;
+		};
+		section2: {
+			title: string;
+			desc: string;
+		};
+		section3: {
+			title: string;
+			desc: string;
+		};
+		section4: {
+			title: string;
+			desc: string;
+		};
+		section5: {
+			title: string;
+			desc: string;
+		};
+		footer: {
+			title: string;
+			a: string;
+			desc: string;
+		};
+	};
+};
+
+const locale: LocaleType = {
 	"zh-cn": {
 		hero: {
 			title: "木目AI",
@@ -28,9 +93,9 @@ const locale = {
 			desc: "基于独家专利的人像AI技术，针对亚洲面孔表现更为出色。",
 		},
 		footer: {
-			p1: "上海潜存网络科技有限公司",
+			title: "上海潜存网络科技有限公司",
 			a: "营业执照",
-			p2: " | 增值电信业务经营许可证：沪B2-20230335 | 联系方式：info@mumuxiang.com",
+			desc: " | 增值电信业务经营许可证：沪B2-20230335 | 联系方式：info@mumuxiang.com",
 		},
 	},
 	"en-us": {
@@ -59,9 +124,9 @@ const locale = {
 			desc: "Based on exclusive patented portrait AI technology, outstanding performance for Asian faces.",
 		},
 		footer: {
-			p1: "Shanghai QianCheng Network Technology Co Ltd",
+			title: "Shanghai QianCheng Network Technology Co Ltd",
 			a: "Business License",
-			p2: " | Value-added Telecommunications Business License: Hu B2-20230335 | Contact: info@mumuxiang.com",
+			desc: " | Value-added Telecommunications Business License: Hu B2-20230335 | Contact: info@mumuxiang.com",
 		},
 	},
 };
