@@ -16,6 +16,7 @@ type LocaleType = Record<
 		hero: {
 			title: string;
 			desc: string;
+			subtext: string;
 		};
 		sections: Record<
 			SectionKey,
@@ -37,6 +38,7 @@ const locale: LocaleType = {
 		hero: {
 			title: "木目AI",
 			desc: "彻底改变拍摄方式 一键生成精美照片",
+			subtext: "敬请期待",
 		},
 		sections: {
 			section1: {
@@ -70,6 +72,7 @@ const locale: LocaleType = {
 		hero: {
 			title: "Artisse AI",
 			desc: "Revolutionizing the way you take photos, one-click generation of exquisite photos",
+			subtext: "Coming Soon",
 		},
 		sections: {
 			section1: {

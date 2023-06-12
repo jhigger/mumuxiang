@@ -4,13 +4,14 @@ import locale, { type LocaleOption } from "~/locale";
 const Hero = ({ localeOption }: { localeOption: LocaleOption }) => {
 	const title = locale[localeOption].hero.title;
 	const desc = locale[localeOption].hero.desc;
+	const subtext = locale[localeOption].hero.subtext;
 
 	return (
 		<section className="flex min-h-screen flex-col items-center justify-center gap-[5vw] bg-gradient-to-br from-[#59D1E9] via-[#D87DDD] to-[#F8C63A] px-2 py-36 sm:px-8 lg:flex-row lg:gap-[10vw] lg:px-14">
 			<div className="aspect-[9/19.5] h-[720px] w-full overflow-hidden rounded-xl border-2 sm:w-[350px]">
 				<img
-					src="https://placehold.co/350x720?text=video"
-					alt="section image"
+					src="images/hero.png"
+					alt="hero image"
 					className="h-full w-full object-cover object-center"
 				/>
 			</div>
@@ -31,13 +32,15 @@ const Hero = ({ localeOption }: { localeOption: LocaleOption }) => {
 						<Balancer>{desc}</Balancer>
 					</p>
 				</div>
-				{/* No app yet */}
-				{/* <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-					<img
+				<div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
+					{/* <img
 						src="https://placehold.co/128x128?text=QR"
 						alt="qr code"
 						className="aspect-square rounded-xl border-2 border-black"
-					/>
+					/> */}
+					<div className="text-lg md:text-2xl lg:text-4xl">
+						{subtext}
+					</div>
 					<div className="grid grid-rows-2 gap-4">
 						<a href="#" className="h-14">
 							<img
@@ -54,7 +57,7 @@ const Hero = ({ localeOption }: { localeOption: LocaleOption }) => {
 							/>
 						</a>
 					</div>
-				</div> */}
+				</div>
 			</div>
 		</section>
 	);
