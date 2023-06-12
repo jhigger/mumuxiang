@@ -12,26 +12,25 @@ import {
 } from "~/components/Sections";
 import { type LocaleOption } from "~/locale";
 
-const Home: NextPage = () => {
-	const locale: LocaleOption = "zh-cn";
+const EnglishHome: NextPage = () => {
+	const locale: LocaleOption = "en-us";
 
 	return (
 		<>
 			<Head>
-				<title>木目 AI</title>
-				<meta name="description" content="木目，你的美，刮目“相”看" />
-				<link rel="canonical" href="https://mumuxiang.com/" />
+				<title>Artisse AI</title>
+				<meta
+					name="description"
+					content="Artisse AI - Changing photography forever"
+				/>
+				<link rel="canonical" href="https://artisse.ai/" />
 				<meta name="author" content="https://github.com/jhigger" />
-				<link rel="icon" href="/logo.webp" />
+				<link rel="icon" href="/artisse.png" />
 			</Head>
 			<div className="relative min-h-[50vh] font-default">
 				<header className="absolute p-10">
-					<Link href="/">
-						<img
-							src="logo.webp"
-							alt="logo"
-							className="h-24 w-24 rounded-xl bg-white"
-						/>
+					<Link href="/en-us">
+						<img src="artisse.png" alt="logo" className="h-24" />
 					</Link>
 				</header>
 				<Hero localeOption={locale} />
@@ -46,4 +45,4 @@ const Home: NextPage = () => {
 	);
 };
 
-export default Home;
+export default EnglishHome;

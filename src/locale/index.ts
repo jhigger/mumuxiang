@@ -1,3 +1,4 @@
+export type LocaleOption = keyof typeof locale;
 export type SectionKey = keyof (typeof locale)["zh-cn"];
 
 const locale = {
@@ -26,8 +27,39 @@ const locale = {
 			title: "尽心打造，你的专属",
 			desc: "基于独家专利的人像AI技术，针对亚洲面孔表现更为出色。",
 		},
+		footer: {
+			p1: "上海潜存网络科技有限公司",
+			a: "营业执照",
+			p2: " | 增值电信业务经营许可证：沪B2-20230335 | 联系方式：info@mumuxiang.com",
+		},
 	},
-	"en-us": {},
+	"en-us": {
+		hero: {
+			title: "",
+			desc: "",
+		},
+		section1: {
+			title: "",
+			desc: "",
+		},
+		section2: {
+			title: "",
+			desc: "",
+		},
+		section3: {
+			title: "",
+			desc: "",
+		},
+		section4: {
+			title: "",
+			desc: "",
+		},
+		section5: {
+			title: "",
+			desc: "",
+		},
+		footer: { p1: "", a: "", p2: "" },
+	},
 };
 
 export default locale;
