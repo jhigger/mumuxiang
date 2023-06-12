@@ -44,7 +44,7 @@ export const Section1 = (props: { localeOption: LocaleOption }) => {
 										key={icon.src}
 										src={icon.src}
 										alt="icon"
-										className="w-4 sm:w-8 md:w-12 lg:w-16"
+										className="w-4 invert-[50%] sm:w-8 md:w-12 lg:w-16"
 									/>
 									<p className="text-center text-[1vw]">
 										{icon.desc[props.localeOption]}
@@ -140,7 +140,7 @@ export const Section5 = (props: { localeOption: LocaleOption }) => {
 										key={icon.src}
 										src={icon.src}
 										alt="icon"
-										className="w-4 sm:w-8 md:w-12 lg:w-16"
+										className="w-4 invert-[50%] sm:w-8 md:w-12 lg:w-16"
 									/>
 									<p className="text-center text-[1vw]">
 										{icon.desc[props.localeOption]}
