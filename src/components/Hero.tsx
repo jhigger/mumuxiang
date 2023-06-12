@@ -16,10 +16,18 @@ const Hero = ({ localeOption }: { localeOption: LocaleOption }) => {
 			</div>
 			<div className="flex flex-col gap-4">
 				<div className="flex flex-col items-center gap-4 text-center lg:max-w-[99%]">
-					<Balancer>
+					{localeOption === "zh-cn" ? (
+						<img
+							src="logo name.png"
+							alt="mumuxiang ai"
+							className="w-1/2"
+						/>
+					) : (
 						<h1 className="font-heading text-6xl md:text-7xl lg:text-8xl">
 							{title}
 						</h1>
+					)}
+					<Balancer>
 						<p className="text-lg md:text-2xl lg:text-4xl">
 							{desc}
 						</p>
