@@ -1,3 +1,4 @@
+import { Balancer } from "react-wrap-balancer";
 import locale, { type LocaleOption } from "~/locale";
 
 const Hero = ({ localeOption }: { localeOption: LocaleOption }) => {
@@ -14,11 +15,15 @@ const Hero = ({ localeOption }: { localeOption: LocaleOption }) => {
 				/>
 			</div>
 			<div className="flex flex-col gap-4">
-				<div className="flex flex-col items-center gap-4">
-					<h1 className="font-heading text-7xl md:text-8xl lg:text-9xl">
-						{title}
-					</h1>
-					<p className="text-xl md:text-3xl lg:text-5xl">{desc}</p>
+				<div className="flex max-w-screen-sm flex-col items-center gap-4 text-center">
+					<Balancer>
+						<h1 className="font-heading text-6xl md:text-7xl lg:text-8xl">
+							{title}
+						</h1>
+						<p className="text-xl md:text-3xl lg:text-5xl">
+							{desc}
+						</p>
+					</Balancer>
 				</div>
 				<div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
 					<img
