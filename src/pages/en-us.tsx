@@ -25,7 +25,7 @@ const EnglishHome: NextPage = () => {
 				/>
 				<link rel="canonical" href="https://artisse.ai/" />
 				<meta name="author" content="https://github.com/jhigger" />
-				<link rel="icon" href="/artisse.png" />
+				<link rel="icon" href="/artisse favicon.png" />
 			</Head>
 			<div className="relative min-h-[50vh] font-default">
 				<header className="absolute p-10">
