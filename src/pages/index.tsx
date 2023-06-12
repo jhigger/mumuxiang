@@ -24,7 +24,7 @@ const Home: NextPage = () => {
 				<meta name="author" content="https://github.com/jhigger" />
 				<link rel="icon" href="/logo.webp" />
 			</Head>
-			<div className="relative min-h-[50vh] font-default">
+			<div className="relative min-h-[50vh] font-default [word-spacing:1rem]">
 				<header className="absolute p-10">
 					<Link href="/">
 						<img

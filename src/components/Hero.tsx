@@ -33,7 +33,8 @@ const Hero = ({ localeOption }: { localeOption: LocaleOption }) => {
 						</p>
 					</Balancer>
 				</div>
-				<div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
+				{/* No app yet */}
+				{/* <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
 					<img
 						src="https://placehold.co/128x128?text=QR"
 						alt="qr code"
@@ -55,7 +56,7 @@ const Hero = ({ localeOption }: { localeOption: LocaleOption }) => {
 							/>
 						</a>
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</section>
 	);
