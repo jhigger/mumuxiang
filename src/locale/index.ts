@@ -35,30 +35,34 @@ const locale = {
 	},
 	"en-us": {
 		hero: {
-			title: "",
-			desc: "",
+			title: "Mumu AI",
+			desc: "Revolutionizing the way you take photos",
 		},
 		section1: {
-			title: "",
-			desc: "",
+			title: "Versatile Styles, Defined by You",
+			desc: "Describe in text or reference photos, with ever-changing styles under your control.",
 		},
 		section2: {
-			title: "",
-			desc: "",
+			title: "One-Click Generation, Infinite Possibilities",
+			desc: "Go beyond imagination and explore a multitude of possibilities with a simple touch.",
 		},
 		section3: {
-			title: "",
-			desc: "",
+			title: "Instant Presentation, Perfect Photos",
+			desc: "Realistic texture, exquisite visuals, one-click output without the need for post-processing.",
 		},
 		section4: {
-			title: "",
-			desc: "",
+			title: "One Training, Switch Freely",
+			desc: "Say goodbye to traditional photography workflows. Beautiful photos without waiting.",
 		},
 		section5: {
-			title: "",
-			desc: "",
+			title: "Dedicated Creation, Your Exclusive Style",
+			desc: "Based on exclusive patented portrait AI technology, outstanding performance for Asian faces.",
 		},
-		footer: { p1: "", a: "", p2: "" },
+		footer: {
+			p1: "Shanghai QianCheng Network Technology Co Ltd",
+			a: "Business License",
+			p2: " | Value-added Telecommunications Business License: Hu B2-20230335 | Contact: info@mumuxiang.com",
+		},
 	},
 };
 
