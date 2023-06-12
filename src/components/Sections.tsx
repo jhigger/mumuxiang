@@ -1,7 +1,31 @@
 import { type LocaleOption } from "~/locale";
 import Content from "./Content";
 
+type IconType = {
+	src: string;
+	desc: Record<LocaleOption, string>;
+};
+
 export const Section1 = (props: { localeOption: LocaleOption }) => {
+	const icons: IconType[] = [
+		{
+			src: "icons/icon1.webp",
+			desc: { "en-us": "Text-generated images", "zh-cn": "文生图" },
+		},
+		{
+			src: "icons/icon2.webp",
+			desc: { "en-us": "Image-generated images", "zh-cn": "图生图" },
+		},
+		{
+			src: "icons/icon3.webp",
+			desc: { "en-us": "Free editing", "zh-cn": "自由编辑" },
+		},
+		{
+			src: "icons/icon4.webp",
+			desc: { "en-us": "Customizable styles", "zh-cn": "自选风格" },
+		},
+	];
+
 	return (
 		<section className="grid h-[50vw] grid-cols-2 grid-rows-1">
 			<img
@@ -12,15 +36,20 @@ export const Section1 = (props: { localeOption: LocaleOption }) => {
 			<div className="flex items-center justify-center p-4">
 				<div className="flex flex-col gap-4 text-center lg:text-start">
 					<Content section="section1" {...props} />
-					<div className="flex flex-wrap justify-center gap-4 lg:flex-initial lg:justify-start">
-						{[...Array(5).keys()].map((i) => {
+					<div className="flex flex-wrap justify-center gap-6 lg:flex-initial lg:justify-start">
+						{icons.map((icon) => {
 							return (
-								<img
-									key={i}
-									src="https://placehold.co/80?text=Image"
-									alt="avatar"
-									className="w-1/4 rounded-xl lg:w-1/6"
-								/>
+								<div className="flex w-max flex-col items-center justify-end rounded-xl">
+									<img
+										key={icon.src}
+										src={icon.src}
+										alt="icon"
+										className="w-4 sm:w-8 md:w-12 lg:w-16"
+									/>
+									<p className="text-center text-[1vw]">
+										{icon.desc[props.localeOption]}
+									</p>
+								</div>
 							);
 						})}
 					</div>
@@ -36,18 +65,6 @@ export const Section2 = (props: { localeOption: LocaleOption }) => {
 			<div className="flex items-center justify-center p-4">
 				<div className="flex flex-col gap-4 text-center lg:text-start">
 					<Content section="section2" {...props} />
-					<div className="flex flex-wrap justify-center gap-4 lg:justify-start">
-						{[...Array(5).keys()].map((i) => {
-							return (
-								<img
-									key={i}
-									src="https://placehold.co/80?text=Image"
-									alt="icon"
-									className="w-1/4 rounded-full lg:w-1/6"
-								/>
-							);
-						})}
-					</div>
 				</div>
 			</div>
 			<img
@@ -82,18 +99,6 @@ export const Section4 = (props: { localeOption: LocaleOption }) => {
 			<div className="flex items-center justify-center p-4">
 				<div className="flex flex-col gap-4 text-center lg:text-start">
 					<Content section="section4" {...props} />
-					<div className="flex flex-wrap justify-center gap-4 lg:justify-start">
-						{[...Array(5).keys()].map((i) => {
-							return (
-								<img
-									key={i}
-									src="https://placehold.co/80?text=Image"
-									alt="illustration"
-									className="w-1/4 rounded-xl lg:w-1/6"
-								/>
-							);
-						})}
-					</div>
 				</div>
 			</div>
 			<img
@@ -106,6 +111,17 @@ export const Section4 = (props: { localeOption: LocaleOption }) => {
 };
 
 export const Section5 = (props: { localeOption: LocaleOption }) => {
+	const icons: IconType[] = [
+		{
+			src: "icons/icon5.webp",
+			desc: { "en-us": "Patented models", "zh-cn": "专利模型" },
+		},
+		{
+			src: "icons/icon6.webp",
+			desc: { "en-us": "Exclusive fine-tuning", "zh-cn": "独家微调" },
+		},
+	];
+
 	return (
 		<section className="grid h-[50vw] grid-cols-2 grid-rows-1 bg-gradient-to-r from-rose-200">
 			<img
@@ -116,6 +132,23 @@ export const Section5 = (props: { localeOption: LocaleOption }) => {
 			<div className="flex items-center justify-center p-4">
 				<div className="flex flex-col gap-4 text-center lg:text-start">
 					<Content section="section5" {...props} />
+					<div className="flex flex-wrap justify-center gap-6 lg:flex-initial lg:justify-start">
+						{icons.map((icon) => {
+							return (
+								<div className="flex w-max flex-col items-center justify-end rounded-xl">
+									<img
+										key={icon.src}
+										src={icon.src}
+										alt="icon"
+										className="w-4 sm:w-8 md:w-12 lg:w-16"
+									/>
+									<p className="text-center text-[1vw]">
+										{icon.desc[props.localeOption]}
+									</p>
+								</div>
+							);
+						})}
+					</div>
 				</div>
 			</div>
 		</section>
