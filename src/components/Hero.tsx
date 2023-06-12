@@ -15,7 +15,7 @@ const Hero = ({ localeOption }: { localeOption: LocaleOption }) => {
 					className="h-full w-full object-cover object-center"
 				/>
 			</div>
-			<div className="flex flex-col gap-4">
+			<div className="flex flex-col gap-8">
 				<div className="flex flex-col items-center gap-4 text-center lg:max-w-[99%]">
 					{localeOption === "zh-cn" ? (
 						<img
@@ -32,13 +32,13 @@ const Hero = ({ localeOption }: { localeOption: LocaleOption }) => {
 						<Balancer>{desc}</Balancer>
 					</p>
 				</div>
-				<div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
+				<div className="flex flex-col items-center justify-center gap-16 sm:flex-row">
 					{/* <img
 						src="https://placehold.co/128x128?text=QR"
 						alt="qr code"
 						className="aspect-square rounded-xl border-2 border-black"
 					/> */}
-					<div className="text-lg md:text-2xl lg:text-4xl">
+					<div className="text-base italic text-gray-600 md:text-xl lg:text-3xl">
 						{subtext}
 					</div>
 					<div className="grid grid-rows-2 gap-4">

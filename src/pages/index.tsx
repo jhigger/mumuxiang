@@ -27,16 +27,16 @@ const Home: NextPage = () => {
 			<div className="relative min-h-[50vh] font-default [word-spacing:1rem]">
 				<header className="absolute p-10">
 					<Link href="/">
-						<div className="rounded-xl bg-white flex items-center">
+						<div className="flex items-center ">
 							<img
 								src="logo.webp"
 								alt="logo"
-								className="h-24 w-24"
+								className="h-24 w-24 rounded-xl bg-white"
 							/>
 							<img
 								src="logo name.png"
 								alt="logo name"
-								className="h-6 pr-6"
+								className="h-6 px-6"
 							/>
 						</div>
 					</Link>
