@@ -8,8 +8,8 @@ const Content = ({
 	localeOption: LocaleOption;
 	section: SectionKey;
 }) => {
-	const title = locale[localeOption][section].title;
-	const desc = locale[localeOption][section].desc;
+	const title = locale[localeOption].sections[section].title;
+	const desc = locale[localeOption].sections[section].desc;
 
 	return (
 		<div>
