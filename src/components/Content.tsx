@@ -12,7 +12,7 @@ const Content = ({
 
 	return (
 		<div>
-			<h2 className="text-[4vw]">{title}</h2>
+			<h2 className="font-heading text-[4vw]">{title}</h2>
 			<p className="text-[1.75vw]">{desc}</p>
 		</div>
 	);
