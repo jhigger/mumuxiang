@@ -94,9 +94,9 @@ const locale: LocaleType = {
 			},
 		},
 		footer: {
-			p1: "Shanghai QianCheng Network Technology Co., Ltd.",
-			a: "Business License",
-			p2: " | Value-added Telecommunications Business License: Hu B2-20230335 | Contact: info@mumuxiang.com",
+			p1: "Artisse AI, Ltd.",
+			a: "",
+			p2: "All rights reserved. | Contact: info@artisse.ai",
 		},
 	},
 };
