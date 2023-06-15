@@ -10,7 +10,11 @@ const Hero = ({ localeOption }: { localeOption: LocaleOption }) => {
 		<section className="flex min-h-screen flex-col items-center justify-center gap-[5vw] bg-gradient-to-br from-[#59D1E9] via-[#D87DDD] to-[#F8C63A] px-2 py-36 sm:px-8 lg:flex-row lg:gap-[10vw] lg:px-14">
 			<div className="aspect-[9/19.5] h-[720px] w-full overflow-hidden rounded-xl border-2 sm:w-[350px]">
 				<img
-					src="images/hero.png"
+					src={
+						localeOption === "zh-cn"
+							? "images/heroCN.png"
+							: "images/heroEN.png"
+					}
 					alt="hero image"
 					className="h-full w-full object-cover object-center"
 				/>
