@@ -12,8 +12,8 @@ const Hero = ({ localeOption }: { localeOption: LocaleOption }) => {
 				<img
 					src={
 						localeOption === "zh-cn"
-							? "images/heroCN.png"
-							: "images/heroEN.png"
+							? "images/heroCN.webp"
+							: "images/heroEN.webp"
 					}
 					alt="hero image"
 					className="h-full w-full object-cover object-center"
