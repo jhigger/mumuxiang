@@ -71,25 +71,25 @@ const locale: LocaleType = {
 	"en-us": {
 		hero: {
 			title: "Artisse AI",
-			desc: "Revolutionizing the way you take photos, one-click generation of exquisite photos",
+			desc: "Changing photography forever",
 			subtext: "Coming Soon",
 		},
 		sections: {
 			section1: {
-				title: "Versatile styles defined by you",
-				desc: "Input text descriptions or reference photos, master various styles",
+				title: "Create any image you want",
+				desc: "Use text descriptions or reference photos to generate your ultra high quality photos",
 			},
 			section2: {
-				title: "One AI model training, multiple application scenarios",
-				desc: "Say goodbye to traditional photography workflows, no need to wait for beautiful photos",
+				title: "Train your AI model once",
+				desc: "Generate stunning photos instantly, anytime, anywhere",
 			},
 			section3: {
 				title: "One-click generation, infinite possibilities",
-				desc: "Go beyond imagination, simply use your fingertips, and have countless possibilities",
+				desc: "Create images in any style, or setting that you can imagine",
 			},
 			section4: {
-				title: "Instant presentation, exquisite photos",
-				desc: "Realistic texture, exquisite visuals, one-click output without the need for post-processing",
+				title: "Instant output",
+				desc: "Get your photos instantly, fully touched and edited to be capital S Stunning",
 			},
 			section5: {
 				title: "Dedicated creation, your exclusive style",
