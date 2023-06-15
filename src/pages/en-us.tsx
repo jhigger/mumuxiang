@@ -30,7 +30,7 @@ const EnglishHome: NextPage = () => {
 			<div className="relative min-h-[50vh] font-default">
 				<header className="absolute p-10">
 					<Link href="/en-us">
-						<img src="artisse.png" alt="logo" className="h-24" />
+						<img src="artisse.png" alt="logo" className="h-12" />
 					</Link>
 				</header>
 				<Hero localeOption={locale} />

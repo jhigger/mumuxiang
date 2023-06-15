@@ -38,7 +38,7 @@ const locale: LocaleType = {
 		hero: {
 			title: "木目AI",
 			desc: "彻底改变拍摄方式 一键生成精美照片",
-			subtext: "敬请期待",
+			subtext: "即将上线 敬请期待",
 		},
 		sections: {
 			section1: {
