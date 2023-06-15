@@ -8,7 +8,7 @@ const Footer = ({ localeOption }: { localeOption: LocaleOption }) => {
 	return (
 		<footer className="bg-zinc-900 px-12 py-24">
 			<div className="container mx-auto flex flex-col items-center justify-center gap-4 text-center text-sm text-white/50 lg:text-lg">
-				<p>&copy; 2023 {p1}</p>
+				<p>&copy;2023 {p1}</p>
 				<p>
 					<a
 						href="License.pdf"
