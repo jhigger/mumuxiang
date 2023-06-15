@@ -8,7 +8,7 @@ const Hero = ({ localeOption }: { localeOption: LocaleOption }) => {
 
 	return (
 		<section className="flex min-h-screen flex-col items-center justify-center gap-[5vw] bg-gradient-to-br from-[#59D1E9] via-[#D87DDD] to-[#F8C63A] px-2 py-36 sm:px-8 lg:flex-row lg:gap-[10vw] lg:px-14">
-			<div className="aspect-[9/19.5] h-[720px] w-full overflow-hidden rounded-xl border-2 sm:w-[350px]">
+			<div className="aspect-[9/19.5] h-full w-full overflow-hidden rounded-xl sm:w-[350px]">
 				<img
 					src={
 						localeOption === "zh-cn"
@@ -16,11 +16,11 @@ const Hero = ({ localeOption }: { localeOption: LocaleOption }) => {
 							: "images/heroEN.webp"
 					}
 					alt="hero image"
-					className="h-full w-full object-cover object-center"
+					className="h-full w-full rounded-[2.5rem] border-2 object-cover object-center"
 				/>
 			</div>
 			<div className="flex flex-col gap-8">
-				<div className="flex flex-col items-center gap-4 text-center lg:max-w-[99%]">
+				<div className="flex flex-col items-center gap-4 text-center">
 					{localeOption === "zh-cn" ? (
 						<img
 							src="logo name.png"
@@ -32,9 +32,7 @@ const Hero = ({ localeOption }: { localeOption: LocaleOption }) => {
 							{title}
 						</h1>
 					)}
-					<p className="text-lg md:text-2xl lg:text-4xl">
-						<Balancer>{desc}</Balancer>
-					</p>
+					<p className="text-lg md:text-2xl lg:text-4xl">{desc}</p>
 				</div>
 				<div className="flex flex-col items-center justify-center gap-16 sm:flex-row">
 					{/* <img
