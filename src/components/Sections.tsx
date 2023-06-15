@@ -29,7 +29,7 @@ export const Section1 = (props: { localeOption: LocaleOption }) => {
 	return (
 		<section className="grid h-[50vw] grid-cols-2 grid-rows-1">
 			<img
-				src="images/image1.jpg"
+				src="images/image1.webp"
 				alt="section image"
 				className="h-full w-full object-cover object-center"
 			/>
@@ -70,7 +70,7 @@ export const Section2 = (props: { localeOption: LocaleOption }) => {
 				</div>
 			</div>
 			<img
-				src="images/image2.jpg"
+				src="images/image2.webp"
 				alt="section image"
 				className="h-full w-full object-cover object-center"
 			/>
@@ -82,7 +82,7 @@ export const Section3 = (props: { localeOption: LocaleOption }) => {
 	return (
 		<section className="grid h-[50vw] grid-cols-2 grid-rows-1 bg-gradient-to-r from-[#d5d6f2]">
 			<img
-				src="images/image3.jpg"
+				src="images/image3.webp"
 				alt="section image"
 				className="h-full w-full object-cover object-center"
 			/>
@@ -104,7 +104,7 @@ export const Section4 = (props: { localeOption: LocaleOption }) => {
 				</div>
 			</div>
 			<img
-				src="images/image4.jpg"
+				src="images/image4.webp"
 				alt="section image"
 				className="h-full w-full object-cover object-center"
 			/>
@@ -127,7 +127,7 @@ export const Section5 = (props: { localeOption: LocaleOption }) => {
 	return (
 		<section className="grid h-[50vw] grid-cols-2 grid-rows-1 bg-gradient-to-r from-rose-200">
 			<img
-				src="images/image5.jpg"
+				src="images/image5.webp"
 				alt="section image"
 				className="h-full w-full object-cover object-center"
 			/>
