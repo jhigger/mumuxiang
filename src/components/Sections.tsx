@@ -14,15 +14,15 @@ export const Section1 = (props: { localeOption: LocaleOption }) => {
 		},
 		{
 			src: "icons/icon2.webp",
-			desc: { "en-us": "Imitate other photos", "zh-cn": "图生图" },
+			desc: { "en-us": "Image-generated images", "zh-cn": "图生图" },
 		},
 		{
 			src: "icons/icon3.webp",
-			desc: { "en-us": "Fine tune editing", "zh-cn": "自由编辑" },
+			desc: { "en-us": "Free editing", "zh-cn": "自由编辑" },
 		},
 		{
 			src: "icons/icon4.webp",
-			desc: { "en-us": "Fully customizable", "zh-cn": "自选风格" },
+			desc: { "en-us": "Customizable styles", "zh-cn": "自选风格" },
 		},
 	];
 
