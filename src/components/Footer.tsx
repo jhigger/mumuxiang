@@ -1,3 +1,4 @@
+import Link from "next/link";
 import locale, { type LocaleOption } from "~/locale";
 
 const Footer = ({ localeOption }: { localeOption: LocaleOption }) => {
@@ -20,6 +21,19 @@ const Footer = ({ localeOption }: { localeOption: LocaleOption }) => {
 					</a>
 					{p2}
 				</p>
+				<div className="inline-flex gap-2">
+					<Link className="text-white" href="/terms" target="_blank">
+						Terms
+					</Link>
+					&middot;
+					<Link
+						className="text-white"
+						href="/privacy"
+						target="_blank"
+					>
+						Privacy
+					</Link>
+				</div>
 			</div>
 		</footer>
 	);
