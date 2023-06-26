@@ -1,4 +1,4 @@
-const localeKeys = ["zh-cn", "en-us"] as const;
+const localeKeys = ["zh-cn"] as const;
 export type LocaleOption = (typeof localeKeys)[number];
 
 const sectionKeys = [
@@ -66,40 +66,6 @@ const locale: LocaleType = {
 			p1: "上海潜存网络科技有限公司",
 			a: "营业执照",
 			p2: " | 增值电信业务经营许可证：沪B2-20230335 | 联系方式：info@mumuxiang.com",
-		},
-	},
-	"en-us": {
-		hero: {
-			title: "Artisse AI",
-			desc: "Changing photography forever",
-			subtext: "Coming Soon",
-		},
-		sections: {
-			section1: {
-				title: "Create any image you want",
-				desc: "Use text descriptions or reference photos to generate your ultra high quality photos",
-			},
-			section2: {
-				title: "Train your AI model once",
-				desc: "Generate stunning photos instantly, anytime, anywhere",
-			},
-			section3: {
-				title: "One-click generation, infinite possibilities",
-				desc: "Create images in any style, or setting that you can imagine",
-			},
-			section4: {
-				title: "Instant output",
-				desc: "Get your photos instantly, fully touched and edited to be capital S Stunning",
-			},
-			section5: {
-				title: "Dedicated creation, your exclusive style",
-				desc: "Based on exclusive patented portrait AI technology, excels in portraying Asian faces",
-			},
-		},
-		footer: {
-			p1: "Artisse AI, Ltd.",
-			a: "",
-			p2: "All rights reserved. | Contact: info@artisse.ai",
 		},
 	},
 };

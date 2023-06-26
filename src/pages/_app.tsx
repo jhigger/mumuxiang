@@ -1,7 +1,7 @@
 import { type AppType } from "next/dist/shared/lib/utils";
-import "~/styles/globals.css";
 import { Noto_Sans_SC } from "next/font/google";
 import localFont from "next/font/local";
+import "~/styles/globals.css";
 
 const font = Noto_Sans_SC({
 	subsets: ["latin"],
@@ -10,7 +10,7 @@ const font = Noto_Sans_SC({
 });
 
 const headingFont = localFont({
-	src: "OPPOSans-L-2.ttf",
+	src: "../assets/OPPOSans-L-2.ttf",
 	weight: "100",
 	variable: "--font-heading",
 });
