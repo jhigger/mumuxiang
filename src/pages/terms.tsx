@@ -19,21 +19,6 @@ const Terms = () => {
 			</Head>
 			<div className="container mx-auto my-32 w-max">
 				<ReactMarkdown
-					components={{
-						// eslint-disable-next-line @typescript-eslint/no-unused-vars
-						ol: ({ depth, ordered, ...props }) => {
-							if (depth === 1) {
-								return (
-									<ol
-										style={{ listStyleType: "lower-alpha" }}
-										{...props}
-									/>
-								);
-							}
-
-							return <ol {...props} />;
-						},
-					}}
 					remarkPlugins={[remarkGfm]}
 					rehypePlugins={[rehypeRaw]}
 					className="prose"
