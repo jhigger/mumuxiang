@@ -10,9 +10,9 @@ const Terms = () => {
 			<Head>
 				<title>木目用户协议</title>
 				<meta name="description" content="木目，你的美，刮目“相”看" />
-				<meta name="author" content="https://github.com/jhigger" />
 				<link rel="canonical" href="https://mumuxiang.com/" />
-				<link rel="icon" href="/artisse favicon.png" />
+				<meta name="author" content="https://github.com/jhigger" />
+				<link rel="icon" href="/logo.webp" />
 			</Head>
 			<div className="container mx-auto my-32 w-max">
 				<ReactMarkdown
