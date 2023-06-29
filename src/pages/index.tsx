@@ -16,40 +16,31 @@ const Home: NextPage = () => {
 	const locale: LocaleOption = "zh-cn";
 
 	return (
-		<>
-			<Head>
-				<title>木目 AI</title>
-				<meta name="description" content="木目，你的美，刮目“相”看" />
-				<link rel="canonical" href="https://mumuxiang.com/" />
-				<meta name="author" content="https://github.com/jhigger" />
-				<link rel="icon" href="/logo.webp" />
-			</Head>
-			<div className="relative min-h-[50vh] font-default [word-spacing:1rem]">
-				<header className="absolute p-10">
-					<Link href="/">
-						<div className="flex items-center gap-2">
-							<img
-								src="logo.webp"
-								alt="logo"
-								className="h-12 w-12 rounded-xl bg-white"
-							/>
-							<img
-								src="logo name.png"
-								alt="logo name"
-								className="h-6"
-							/>
-						</div>
-					</Link>
-				</header>
-				<Hero localeOption={locale} />
-				<Section1 localeOption={locale} />
-				<Section2 localeOption={locale} />
-				<Section3 localeOption={locale} />
-				<Section4 localeOption={locale} />
-				<Section5 localeOption={locale} />
-				<Footer localeOption={locale} />
-			</div>
-		</>
+		<div className="relative min-h-[50vh] font-default [word-spacing:1rem]">
+			<header className="absolute p-10">
+				<Link href="/">
+					<div className="flex items-center gap-2">
+						<img
+							src="logo.webp"
+							alt="logo"
+							className="h-12 w-12 rounded-xl bg-white"
+						/>
+						<img
+							src="logo name.png"
+							alt="logo name"
+							className="h-6"
+						/>
+					</div>
+				</Link>
+			</header>
+			<Hero localeOption={locale} />
+			<Section1 localeOption={locale} />
+			<Section2 localeOption={locale} />
+			<Section3 localeOption={locale} />
+			<Section4 localeOption={locale} />
+			<Section5 localeOption={locale} />
+			<Footer localeOption={locale} />
+		</div>
 	);
 };
 

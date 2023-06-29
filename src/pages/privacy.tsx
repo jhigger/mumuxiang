@@ -9,10 +9,6 @@ const Policy = () => {
 		<>
 			<Head>
 				<title>隐私政策</title>
-				<meta name="description" content="木目，你的美，刮目“相”看" />
-				<link rel="canonical" href="https://mumuxiang.com/" />
-				<meta name="author" content="https://github.com/jhigger" />
-				<link rel="icon" href="/logo.webp" />
 			</Head>
 			<div className="container mx-auto my-32 w-max">
 				<ReactMarkdown
